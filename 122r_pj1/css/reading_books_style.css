@@ -14,6 +14,7 @@ header h1 {
   text-align: center;
 }
 
+
 footer {
   width:100%;
   background:#373737;
@@ -29,7 +30,16 @@ footer p {
 
 
 @media all and (min-width:768px) {
-  
+	#contents {
+		 display: flex; /* 플렉서블 박스 레이아웃 적용 */
+		-ms-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap; /* 여러 줄에 걸쳐 표시 */
+		justify-content: space-between; /* 화면 양쪽에 바짝 붙이기  */
+	}
+	#box1, #box2, #box3, #box4 {
+		
+	}
   }
 
 
