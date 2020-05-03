@@ -5,6 +5,7 @@
 }
 #container {
 	width:100%;
+	
 }
 header {
 	width:100%;	
@@ -14,15 +15,17 @@ header h1 {
   text-align: center;
 }
 img {
-	display:block;
+	display:inline-block;
 }
+
 #contents {
 	width:100%
+	background-color: yellow;
 }
 #contents > div {
 	position:relative;
   	height:400px;
- 	border:1px solid black;
+ 	border:1px outset black;
   	margin-bottom:15px;
 }
 
@@ -37,6 +40,10 @@ footer p {
   text-align:center;
    line-height:200px;
 }
+#box1, #box2, #box3, #box4{
+	width:100%;
+	
+}
 
 
 
@@ -48,14 +55,31 @@ footer p {
 		flex-wrap: wrap; /* 여러 줄에 걸쳐 표시 */
 		justify-content: space-between; /* 화면 양쪽에 바짝 붙이기  */
 	}
-	#box1, #box2, #box3, #box4 {
+	#box1,#box2,#box3,#box4 {
+		width:49%;
 		
+	}
+	img {
+		width:auto;
+		height:100%;
+		
+	}
+	#box4 img {
+		width:49%;
+		height:100%;
 	}
   }
 
 
 
 @media all and (min-width:992px) {
- 
+	#box1,#box2,#box3,#box4 {
+		width:49%;
+		
+	}
+	img {
+		width:auto;
+		height:100%;
+	}
   
 }
