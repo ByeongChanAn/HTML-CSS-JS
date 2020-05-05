@@ -23,6 +23,15 @@ footer p {
   text-align:center;
    line-height:200px;
 }
+a img{
+	display:inline-block;
+	
+	margin-bottom:0.8em;
+}
+img:hover{
+	border:1px solid orange;
+	
+}
 
 
 .container {
@@ -30,4 +39,7 @@ footer p {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+	background-color: #EAEDED ;
 }
+
+
