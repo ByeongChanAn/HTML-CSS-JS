@@ -29,10 +29,13 @@ a img{
 	margin-bottom:0.8em;
 }
 img:hover{
-	border:1px solid orange;
+	border:1px solid blue;
 	
 }
 
+p {
+	font-family: "Malgun Gothic",Georgia, serif;
+}
 
 .container {
   padding-right: 15px;
