@@ -3,9 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
-#container {
-	width:100%;
-}
+
 header {
 	width:100%;	
 }
@@ -25,6 +23,29 @@ footer p {
   text-align:center;
    line-height:200px;
 }
+a img{
+	display:inline-block;
+	
+	margin-bottom:0.8em;
+}
+img:hover{
+	border:1px solid blue;
+	
+}
+
+p {
+	font-family: "Malgun Gothic",Georgia, serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	background-color: #EAEDED ;
+}
+
+
 
 
 
